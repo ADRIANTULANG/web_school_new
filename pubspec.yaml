@@ -1,0 +1,106 @@
+name: web_school
+description: A web school management
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_web_plugins:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  auto_route: ^7.8.3
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^4.8.4
+  equatable: ^2.0.5
+  file_picker: ^6.1.1
+  firebase_auth: ^4.7.2
+  firebase_core: ^2.15.0
+  fl_chart: ^0.64.0
+  flutter_local_notifications: ^15.1.1
+  firebase_messaging: ^14.6.7
+  flutter_native_splash: ^2.3.2
+  flutter_screenutil: ^5.9.0
+  flutter_slidable: ^3.0.0
+  firebase_storage: ^11.5.0
+  #  flutter_stripe: ^9.3.0
+  http: ^1.1.0
+  intl: ^0.18.1
+  modal_progress_hud_nsn: ^0.4.0
+  open_file: ^3.3.2
+  path_provider_android: ^2.2.0
+  path_provider: ^2.1.1
+  pdf: ^3.10.4
+  percent_indicator: ^4.2.3
+  pie_chart: ^5.3.2
+  provider: ^6.0.5
+  responsive_builder: ^0.7.0
+  shared_preferences: ^2.2.2
+  shared_preferences_android: ^2.2.1
+  shared_preferences_ios_sn: ^1.0.3
+  sprung: ^3.0.1
+  #  syncfusion_flutter_pdf: ^23.1.44
+  uuid: ^3.0.7
+  universal_html: ^2.2.4
+  url_launcher: ^6.2.1
+  url_strategy: ^0.2.0
+  image_picker: ^1.0.4
+  image_picker_for_web: ^3.0.1
+  video_player: ^2.7.0
+
+dev_dependencies:
+  auto_route_generator: ^7.3.1
+  build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/background.png"
+  web:
+    generate: true
+    image_path: "assets/images/background.png"
+    background_color: "#0xFFFFFFFF"
+
+flutter_native_splash:
+  color: "#00000"
+  image: "assets/images/background.png"
+
+  # flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/videos/
+    - assets/json/
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Black.ttf
+        - asset: assets/fonts/PlayfairDisplay-BlackItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+        - asset: assets/fonts/PlayfairDisplay-BoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-ExtraBold.ttf
+        - asset: assets/fonts/PlayfairDisplay-ExtraBoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Italic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Medium.ttf
+        - asset: assets/fonts/PlayfairDisplay-MediumItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay-SemiBold.ttf
+        - asset: assets/fonts/PlayfairDisplay-SemiBoldItalic.ttf

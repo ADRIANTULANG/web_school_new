@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "759159093073",
+    "firebase_url": "https://enrollment-8bef4-default-rtdb.firebaseio.com",
+    "project_id": "enrollment-8bef4",
+    "storage_bucket": "enrollment-8bef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759159093073:android:74854e67927b07e499c570",
+        "android_client_info": {
+          "package_name": "com.example.my_enrollment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759159093073-ibbo5hud0s38inqvik1m7ged7nr4dhma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXwuEomtCS4JLwz-BLikeeL8d6fV6078w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759159093073-ibbo5hud0s38inqvik1m7ged7nr4dhma.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "759159093073-24ms6hntgquae0d1foc602ddb05m1oc9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myEnrollment"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759159093073:android:37ab69484a8cd73399c570",
+        "android_client_info": {
+          "package_name": "com.example.school_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759159093073-ibbo5hud0s38inqvik1m7ged7nr4dhma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXwuEomtCS4JLwz-BLikeeL8d6fV6078w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759159093073-ibbo5hud0s38inqvik1m7ged7nr4dhma.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "759159093073-24ms6hntgquae0d1foc602ddb05m1oc9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myEnrollment"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759159093073:android:0e2ab21ea500209899c570",
+        "android_client_info": {
+          "package_name": "com.example.web_school"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759159093073-ibbo5hud0s38inqvik1m7ged7nr4dhma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXwuEomtCS4JLwz-BLikeeL8d6fV6078w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759159093073-ibbo5hud0s38inqvik1m7ged7nr4dhma.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "759159093073-24ms6hntgquae0d1foc602ddb05m1oc9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myEnrollment"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759159093073:android:ac11e976996a4d0399c570",
+        "android_client_info": {
+          "package_name": "com.example.web_school_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759159093073-ibbo5hud0s38inqvik1m7ged7nr4dhma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXwuEomtCS4JLwz-BLikeeL8d6fV6078w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759159093073-ibbo5hud0s38inqvik1m7ged7nr4dhma.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "759159093073-24ms6hntgquae0d1foc602ddb05m1oc9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myEnrollment"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,267 @@
+{
+  "juniorSubject": [
+    {
+      "subject": {
+        "id": 0,
+        "name": "Filipino",
+        "units": 3,
+        "7a": [
+          {
+            "day": 1,
+            "start": {
+              "hour": 10,
+              "minute": 45
+            }
+          },
+          {
+            "day": 2,
+            "start": {
+              "hour": 10,
+              "minute": 45
+            }
+          },
+          {
+            "day": 3,
+            "start": {
+              "hour": 10,
+              "minute": 45
+            }
+          },
+          {
+            "day": 4,
+            "start": {
+              "hour": 10,
+              "minute": 45
+            }
+          }
+        ],
+        "enrolled": false
+      }
+    },
+    {
+      "subject": {
+        "id": 1,
+        "name": "English",
+        "units": 3,
+        "7a": [
+          {
+            "day": 2,
+            "start": {
+              "hour": 7,
+              "minute": 30
+            }
+          },
+          {
+            "day": 3,
+            "start": {
+              "hour": 7,
+              "minute": 30
+            }
+          },
+          {
+            "day": 4,
+            "start": {
+              "hour": 7,
+              "minute": 30
+            }
+          },
+          {
+            "day": 5,
+            "start": {
+              "hour": 7,
+              "minute": 30
+            }
+          }
+        ],
+        "enrolled": false
+      }
+    },
+    {
+      "subject": {
+        "id": 2,
+        "name": "Araling Panlipunan",
+        "units": 3,
+        "7a": [
+          {
+            "day": 1,
+            "start": {
+              "hour": 8,
+              "minute": 30
+            }
+          },
+          {
+            "day": 2,
+            "start": {
+              "hour": 13,
+              "minute": 0
+            }
+          },
+          {
+            "day": 3,
+            "start": {
+              "hour": 13,
+              "minute": 0
+            }
+          }
+        ],
+        "enrolled": false
+      }
+    },
+    {
+      "subject": {
+        "id": 3,
+        "name": "Math",
+        "units": 3,
+        "7a": [
+          {
+            "day": 3,
+            "start": {
+              "hour": 8,
+              "minute": 30
+            }
+          },
+          {
+            "day": 4,
+            "start": {
+              "hour": 8,
+              "minute": 30
+            }
+          },
+          {
+            "day": 5,
+            "start": {
+              "hour": 8,
+              "minute": 30
+            }
+          }
+        ],
+        "enrolled": false
+      }
+    },
+    {
+      "subject": {
+        "id": 4,
+        "name": "Science",
+        "units": 3,
+        "7a": [
+          {
+            "day": 1,
+            "start": {
+              "hour": 9,
+              "minute": 45
+            }
+          },
+          {
+            "day": 2,
+            "start": {
+              "hour": 9,
+              "minute": 45
+            }
+          },
+          {
+            "day": 3,
+            "start": {
+              "hour": 9,
+              "minute": 45
+            }
+          },
+          {
+            "day": 4,
+            "start": {
+              "hour": 9,
+              "minute": 45
+            }
+          }
+        ],
+        "enrolled": false
+      }
+    },
+    {
+      "subject": {
+        "id": 5,
+        "name": "TLE",
+        "units": 3,
+        "7a": [
+          {
+            "day": 5,
+            "start": {
+              "hour": 9,
+              "minute": 45
+            }
+          },
+          {
+            "day": 1,
+            "start": {
+              "hour": 13,
+              "minute": 0
+            }
+          },
+          {
+            "day": 4,
+            "start": {
+              "hour": 14,
+              "minute": 0
+            }
+          }
+        ],
+        "enrolled": false
+      }
+    },
+    {
+      "subject": {
+        "id": 6,
+        "name": "Music",
+        "units": 3,
+        "7a": [
+          {
+            "day": 2,
+            "start": {
+              "hour": 14,
+              "minute": 0
+            }
+          },
+          {
+            "day": 3,
+            "start": {
+              "hour": 14,
+              "minute": 0
+            }
+          },
+          {
+            "day": 3,
+            "start": {
+              "hour": 15,
+              "minute": 0
+            }
+          }
+        ],
+        "enrolled": false
+      }
+    },
+    {
+      "subject": {
+        "id": 7,
+        "name": "ESP",
+        "units": 3,
+        "7a": [
+          {
+            "day": 1,
+            "start": {
+              "hour": 14,
+              "minute": 0
+            }
+          },
+          {
+            "day": 5,
+            "start": {
+              "hour": 14,
+              "minute": 0
+            }
+          },
+        ],
+        "enrolled": false
+      }
+    }
+
+  ]
+}

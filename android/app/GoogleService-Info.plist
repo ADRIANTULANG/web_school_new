@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>759159093073-5sgk7qmhljronm2847oidelf9vpbeg2a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.759159093073-5sgk7qmhljronm2847oidelf9vpbeg2a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBnA4Qb0WChH0nvDm7j2-osYRcMWBXtgVQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>759159093073</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.myEnrollment.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>enrollment-8bef4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>enrollment-8bef4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:759159093073:ios:252d66596c2af92a99c570</string>
+	<key>DATABASE_URL</key>
+	<string>https://enrollment-8bef4-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
