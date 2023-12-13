@@ -220,47 +220,63 @@ class AdminDB extends ChangeNotifier {
     Map selectedSection,
     Map selectedStrandMap,
   ) async {
-    final String id = Uuid().v1();
+    var res = await FirebaseFirestore.instance
+        .collection('instructor')
+        .where('username', isEqualTo: "${username.text}@my.sjaiss.edu.ph")
+        .get();
+    if (res.docs.isEmpty) {
+      final String id = Uuid().v1();
 
-    print("add new instructor");
-    var userdata = {
-      "controlNumber": "${username.text}@my.sjaiss.edu.ph",
-      "type": "instructor",
-      "id": id,
-      "password": "123456",
-    };
+      print("add new instructor");
+      var userdata = {
+        "controlNumber": "${username.text}@my.sjaiss.edu.ph",
+        "type": "instructor",
+        "id": id,
+        "password": "123456",
+      };
 
-    for (var i = 0; i < subjectsSelected.length; i++) {
-      (subjectsSelected[i] as Map).remove('level');
-      (subjectsSelected[i] as Map).remove('isActive');
-      (subjectsSelected[i] as Map).remove('strand');
-      (subjectsSelected[i] as Map).remove('strand_id');
-      (subjectsSelected[i] as Map).remove('semester');
-      (subjectsSelected[i] as Map).remove('semester_id');
-    }
-    var data = {
-      "createdAt": Timestamp.now(),
-      "firstName": firstName.text,
-      "grade": selectedGrade,
-      "lastName": lastName.text,
-      "section": selectedSection,
-      "strand": selectedStrandMap.isEmpty ? null : selectedStrandMap,
-      "subject": subjectsSelected,
-      "userModel": userdata,
-      "username": "${username.text}@my.sjaiss.edu.ph",
-    };
+      for (var i = 0; i < subjectsSelected.length; i++) {
+        (subjectsSelected[i] as Map).remove('level');
+        (subjectsSelected[i] as Map).remove('isActive');
+        (subjectsSelected[i] as Map).remove('strand');
+        (subjectsSelected[i] as Map).remove('strand_id');
+        (subjectsSelected[i] as Map).remove('semester');
+        (subjectsSelected[i] as Map).remove('semester_id');
+      }
+      var data = {
+        "createdAt": Timestamp.now(),
+        "firstName": firstName.text,
+        "grade": selectedGrade,
+        "lastName": lastName.text,
+        "section": selectedSection,
+        "strand": selectedStrandMap.isEmpty ? null : selectedStrandMap,
+        "subject": subjectsSelected,
+        "userModel": userdata,
+        "username": "${username.text}@my.sjaiss.edu.ph",
+      };
 
-    db.collection("instructor").doc(id).set(data).then((value) {
-      db.collection("user").doc(id).set(userdata);
+      db.collection("instructor").doc(id).set(data).then((value) {
+        db.collection("user").doc(id).set(userdata);
 
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text("Added successfully!"),
+          ),
+        );
+        context.popRoute();
+        clearInstructorForm();
+      });
+    } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text("Added successfully!"),
+          backgroundColor: Colors.red,
+          content: Text(
+            "Account already exist!",
+            style: TextStyle(color: Colors.white),
+          ),
         ),
       );
-      context.popRoute();
-      clearInstructorForm();
-    });
+    }
   }
 
   Future<void> editNewInstructor(
@@ -273,7 +289,6 @@ class AdminDB extends ChangeNotifier {
     final String id = Uuid().v1();
 
     print("add new instructor");
- 
 
     for (var i = 0; i < subjectsSelected.length; i++) {
       (subjectsSelected[i] as Map).remove('level');
