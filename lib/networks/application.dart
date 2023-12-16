@@ -227,7 +227,8 @@ class Application extends ChangeNotifier {
   final List<SelectionOption> strandList = const [
     SelectionOption(id: "0", label: "GAS(General Academic Strand)"),
     SelectionOption(
-        id: "1", label: "STEM(Science, Technology, Engineering and Mathematics)"),
+        id: "1",
+        label: "STEM(Science, Technology, Engineering and Mathematics)"),
     SelectionOption(id: "2", label: "HUMMS(Humanities and Social Sciences)"),
   ];
 
